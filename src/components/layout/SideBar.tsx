@@ -1,4 +1,5 @@
 import { PackageOpen } from "lucide-react";
+import NavLinks from "./nav-links";
 
 export default function SideBar() {
   return (
@@ -15,11 +16,7 @@ export default function SideBar() {
 
       {/* Links */}
       <div className="p-4">
-        <ul className="mx-auto mt-3 space-y-4">
-          <li>
-            <a href=""></a>
-          </li>
-        </ul>
+      <NavLinks />
       </div>
     </aside>
   );
